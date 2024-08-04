@@ -6,10 +6,7 @@ The following versions of the project are currently supported with security upda
 
 | Version | Supported          |
 | ------- | ------------------ |
-| k.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| k1.1   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
