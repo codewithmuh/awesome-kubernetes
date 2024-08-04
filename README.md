@@ -23,7 +23,7 @@ Learn Kubernetes in an Easy Way. Key Concepts and Hands-On Labs.
 16. Google Cloud GKE hands-on Project
 17. AZure AZK Hands-On Project
 
-#1. Analogy of Kubernetes
+# 1. Analogy of Kubernetes
 ![3](https://github.com/user-attachments/assets/f65c55b2-b293-47d2-8858-6a615e4b2b66)
 ![4](https://github.com/user-attachments/assets/984345d3-4144-4d31-9128-d9d3f1470c3a)
 ![kube (2)](https://github.com/user-attachments/assets/1b3798b3-c073-46bf-a36d-396ae9defcb3)
