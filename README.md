@@ -36,6 +36,23 @@ Learn Kubernetes in an Easy Way. Key Concepts and Hands-On Labs.
 ![10](https://github.com/user-attachments/assets/5343fd2a-925a-43ba-8b9d-05e363461d17)
 ![11](https://github.com/user-attachments/assets/d0fda546-5d2c-49ee-8c75-dc0476e2a4cc)
 ![12](https://github.com/user-attachments/assets/d9a71acf-f295-47cb-a3f7-72a64111bc4d)
+![14](https://github.com/user-attachments/assets/e5358ced-e77f-4e9a-87de-78c62eb67775)
+![15](https://github.com/user-attachments/assets/73825792-ff21-4b48-afc4-4e21f1c1d529)
+![16](https://github.com/user-attachments/assets/55e9ccf5-6b23-417b-a405-3e928ec8a264)
+![17](https://github.com/user-attachments/assets/7ea01e76-2841-4d2b-b545-238202a221da)
+![18](https://github.com/user-attachments/assets/eb65a5a0-0efd-4f6e-99b4-de0e37a72c8c)
+![19](https://github.com/user-attachments/assets/ac67f579-edbd-45c4-a48f-e5814c2778ad)
+![20](https://github.com/user-attachments/assets/902c470c-c6c4-475a-9d89-0bc959023136)
+![21](https://github.com/user-attachments/assets/1117a2e1-2e38-43f0-9a29-8f2c94165edc)
+![22](https://github.com/user-attachments/assets/1b8c4727-cfc9-4119-beb6-91602eb43ca4)
+![23](https://github.com/user-attachments/assets/0962232a-ead3-4247-acbc-1687e6059872)
+![24](https://github.com/user-attachments/assets/786d0cf0-2800-4b38-bc4d-50ef4b2eb86c)
+![25](https://github.com/user-attachments/assets/2bbf75b8-38e3-430d-804c-2a184d4a89b5)
+![26](https://github.com/user-attachments/assets/65d7a9f2-590a-44c1-8f37-ce6d6a6fd966)
+![27](https://github.com/user-attachments/assets/a387b18b-80f5-4bbc-a3e9-8dd73c8654bb)
+![28](https://github.com/user-attachments/assets/818d5b2f-6ac3-4a84-9513-11620d548ef7)
+
+![29](https://github.com/user-attachments/assets/7d8a0030-c61f-47af-81ca-1b680e2f47bf)
 
 
 # 2. What is k8s
