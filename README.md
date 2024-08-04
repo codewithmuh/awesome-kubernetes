@@ -37,7 +37,7 @@ Learn Kubernetes in an Easy Way. Key Concepts and Hands-On Labs.
 ![12](https://github.com/user-attachments/assets/d9a71acf-f295-47cb-a3f7-72a64111bc4d)
 
 
-
+# 2. What is k8s
 
 # More Coming Soon (I am working on this Repo)
 
