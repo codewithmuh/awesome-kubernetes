@@ -60,24 +60,105 @@ Learn Kubernetes in an Easy Way. Key Concepts and Hands-On Labs.
 K8s, short for Kubernetes, is an open-source platform designed to automate the deployment, scaling, and operation of containerized applications. Originally developed by Google, Kubernetes helps manage and orchestrate large clusters of containers, ensuring that they run smoothly and efficiently.
 
 ## Key Features of Kubernetes (K8s):
-**1.Container Orchestration**: Kubernetes automates the deployment and scaling of containerized applications across clusters of machines, managing workloads to ensure that they run consistently.
+**1. Container Orchestration**: Kubernetes automates the deployment and scaling of containerized applications across clusters of machines, managing workloads to ensure that they run consistently.
 
-**2.Self-Healing**: Kubernetes can automatically restart failed containers, replace containers, and reschedule them on available nodes if a node fails.
+**2. Self-Healing**: Kubernetes can automatically restart failed containers, replace containers, and reschedule them on available nodes if a node fails.
 
-**3.Load Balancing and Service Discovery**: Kubernetes can expose containers using DNS names or their own IP addresses and automatically balance the load between containers.
+**3. Load Balancing and Service Discovery**: Kubernetes can expose containers using DNS names or their own IP addresses and automatically balance the load between containers.
 
-**4.Storage Orchestration**: Kubernetes allows you to automatically mount a storage system of your choice, like local storage, public cloud providers, or network storage systems.
+**4. Storage Orchestration**: Kubernetes allows you to automatically mount a storage system of your choice, like local storage, public cloud providers, or network storage systems.
 
-**5.Automated Rollouts and Rollbacks**: Kubernetes can manage updates to your applications or its configuration, rolling out changes gradually while monitoring application health to ensure the updates don’t cause issues.
+**5. Automated Rollouts and Rollbacks**: Kubernetes can manage updates to your applications or its configuration, rolling out changes gradually while monitoring application health to ensure the updates don’t cause issues.
 
-**6.Secret and Configuration Management**: Kubernetes can store and manage sensitive information, such as passwords, OAuth tokens, and SSH keys, allowing you to deploy and update secrets and application configuration without rebuilding your container images.
+**6. Secret and Configuration Management**: Kubernetes can store and manage sensitive information, such as passwords, OAuth tokens, and SSH keys, allowing you to deploy and update secrets and application configuration without rebuilding your container images.
 
-**7.Horizontal Scaling**: With Kubernetes, you can scale your applications up and down easily using a command, a user interface, or automatically based on CPU usage.
+**7. Horizontal Scaling**: With Kubernetes, you can scale your applications up and down easily using a command, a user interface, or automatically based on CPU usage.
 
 ## Why Use Kubernetes?
 **Portability**: Kubernetes works with various container runtimes and can be used across different cloud providers and on-premises environments.
+
 **Resource Efficiency**: It optimizes resource usage by efficiently packing containers onto nodes.
+
 **Scalability**: Kubernetes can handle large-scale, complex applications with ease, making it suitable for both small and enterprise-level deployments.
+
+## Kubernetes (K8s) Main Key Components
+**1. Nodes**:
+
+**Master Node (Control Plane)**: Manages the Kubernetes cluster, making decisions about scheduling, responding to cluster events, and managing the desired state of the cluster. Key components include:
+ 
+**API Server**: The front-end for the Kubernetes control plane. It exposes the Kubernetes API.
+
+**Scheduler**: Assigns workloads to nodes based on resource availability and other constraints.
+
+**Controller Manager**: Manages various controllers that handle different aspects of the cluster, such as node and pod lifecycle, endpoints, and more.
+
+**etcd**: A distributed key-value store used for storing cluster configuration data, state, and metadata.
+
+**Cloud Controller Manager**: Manages interactions with the underlying cloud providers (e.g., load balancers, storage, networking).
+
+**Worker Nodes**: Run the actual application workloads. They include:
+
+**Kubelet**: An agent that runs on each node in the cluster, ensuring that containers are running in pods as expected.
+
+**Kube Proxy**: Maintains network rules on nodes, allowing communication between Pods and services within the cluster.
+
+**Container Runtime**: The software responsible for running the containers (e.g., Docker, containerd, CRI-O).
+
+ **2.Pods**:
+
+The smallest and simplest Kubernetes object, a pod represents a single instance of a running process in your cluster. It can contain one or more containers that share the same network and storage resources.
+
+**3. Services**:
+
+A stable, reliable endpoint that provides a way to expose an application running on a set of Pods as a network service. Services enable load balancing and service discovery.
+
+**4. Deployments**:
+
+Manages the deployment and scaling of a set of Pods. It allows declarative updates to applications and manages the desired state for Pods and ReplicaSets.
+
+**5. ReplicaSets**:
+
+Ensures that a specified number of identical Pods are running at any given time. It’s often used by Deployments to maintain a stable set of replicas of Pods running at all times.
+
+**6. ConfigMaps and Secrets**:
+
+**ConfigMaps**: Used to store configuration data in key-value pairs that can be consumed by Pods.
+
+**Secrets**: Similar to ConfigMaps but intended for storing sensitive information like passwords, tokens, and keys.
+
+**7. Volumes**:
+
+Provide a way to store and persist data generated by and used by containers. Kubernetes supports different types of volumes, such as persistent volumes, emptyDir, hostPath, etc.
+
+**8. Namespaces**:
+
+Provide a way to divide cluster resources between multiple users or teams. They are useful for managing environments (e.g., development, testing, production) within a single Kubernetes cluster.
+**9. Ingress**:
+
+Manages external access to services in a cluster, typically HTTP/HTTPS routes, providing load balancing, SSL termination, and name-based virtual hosting.
+
+## MiniKube
+MiniKube is a tool that enables you to run Kubernetes locally on your personal computer. It creates a single-node Kubernetes cluster on your machine, which is useful for development, testing, and learning purposes. MiniKube can run on various operating systems like macOS, Linux, and Windows.
+
+### Key Features of MiniKube:
+- Provides a local Kubernetes cluster for testing and development.
+- Supports different Kubernetes features and add-ons.
+- Easy to set up and start using Kubernetes without needing a full-scale cluster.
+  
+## kubectl
+kubectl is the command-line tool used to interact with Kubernetes clusters. It communicates with the Kubernetes API server and allows you to deploy applications, inspect and manage cluster resources, and view logs.
+
+### Common kubectl Commands:
+
+kubectl get pods: Lists all Pods in a specific namespace.
+
+kubectl apply -f <file.yaml>: Applies the configuration specified in a YAML file to create or update Kubernetes resources.
+
+kubectl describe pod <pod-name>: Provides detailed information about a specific Pod.
+
+kubectl delete service <service-name>: Deletes a specific service.
+
+Both MiniKube and kubectl are essential tools for developers and system administrators working with Kubernetes, especially in local development environments.
 
 # More Coming Soon (I am working on this Repo)
 
