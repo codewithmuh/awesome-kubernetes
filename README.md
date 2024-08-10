@@ -160,6 +160,10 @@ kubectl is the command-line tool used to interact with Kubernetes clusters. It c
 
 Both MiniKube and kubectl are essential tools for developers and system administrators working with Kubernetes, especially in local development environments.
 
+## 1. MiniKube and kubectl - Local Setup
+
+**MiniKube** allows you to create a local Kubernetes cluster on your personal computer, which is perfect for development and testing. **kubectl** is the command-line tool that interacts with your Kubernetes cluster, helping you manage and deploy applications.
+
 # More Coming Soon (I am working on this Repo)
 
 
