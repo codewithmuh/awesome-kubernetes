@@ -57,6 +57,28 @@ Learn Kubernetes in an Easy Way. Key Concepts and Hands-On Labs.
 
 # 2. What is k8s
 
+K8s, short for Kubernetes, is an open-source platform designed to automate the deployment, scaling, and operation of containerized applications. Originally developed by Google, Kubernetes helps manage and orchestrate large clusters of containers, ensuring that they run smoothly and efficiently.
+
+## Key Features of Kubernetes (K8s):
+**1.Container Orchestration**: Kubernetes automates the deployment and scaling of containerized applications across clusters of machines, managing workloads to ensure that they run consistently.
+
+**2.Self-Healing**: Kubernetes can automatically restart failed containers, replace containers, and reschedule them on available nodes if a node fails.
+
+**3.Load Balancing and Service Discovery**: Kubernetes can expose containers using DNS names or their own IP addresses and automatically balance the load between containers.
+
+**4.Storage Orchestration**: Kubernetes allows you to automatically mount a storage system of your choice, like local storage, public cloud providers, or network storage systems.
+
+**5.Automated Rollouts and Rollbacks**: Kubernetes can manage updates to your applications or its configuration, rolling out changes gradually while monitoring application health to ensure the updates don’t cause issues.
+
+**6.Secret and Configuration Management**: Kubernetes can store and manage sensitive information, such as passwords, OAuth tokens, and SSH keys, allowing you to deploy and update secrets and application configuration without rebuilding your container images.
+
+**7.Horizontal Scaling**: With Kubernetes, you can scale your applications up and down easily using a command, a user interface, or automatically based on CPU usage.
+
+## Why Use Kubernetes?
+**Portability**: Kubernetes works with various container runtimes and can be used across different cloud providers and on-premises environments.
+**Resource Efficiency**: It optimizes resource usage by efficiently packing containers onto nodes.
+**Scalability**: Kubernetes can handle large-scale, complex applications with ease, making it suitable for both small and enterprise-level deployments.
+
 # More Coming Soon (I am working on this Repo)
 
 
